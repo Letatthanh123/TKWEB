@@ -1,0 +1,66 @@
+body{
+  background-color:coral ;
+  font-size: 20px;
+  font-family:monospace ;
+  color:blue ;
+}
+p {color:black}
+
+
+
+/* Header **/
+header{
+  background-color:darkturquoise ;
+  font-size: 20PX;
+  padding: 20px 70px 50px 1px ;
+  margin: -7px;
+  border-bottom-style:double ;
+  color:orangered ;
+}
+
+
+header a{
+  font-size:larger ;
+}
+
+header li{
+ color:crimson;
+ font-variant: small-caps;
+ font-style:oblique
+}
+
+header #branding{
+  text-decoration:underline black ;
+  text-align: center ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+header #branding h1{
+  color:
+  font-size: 40px ;
+}
+
+header nav{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+header .highlight, header .current a{
+color:crimson
+}
+
+header a:hover{
+  color:aliceblue
+}
+
+
+footer{
+  font-style: oblique;
+  text-decoration: underline;
+  background-color:gold;
+  text-align: center;
+}
+#newsletter form input[type="email"], .quote input, .quote textarea{
+  color:
+  }
+
