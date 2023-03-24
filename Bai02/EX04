@@ -1,4 +1,4 @@
-body{
+=body{
   background-color:coral ;
   font-size: 20px;
   font-family:monospace ;
@@ -46,7 +46,8 @@ header nav{
 }
 
 header .highlight, header .current a{
-color:crimson
+color:crimson;
+font-weight: bold;
 }
 
 header a:hover{
@@ -55,6 +56,8 @@ header a:hover{
 
 
 footer{
+  padding: 20px 70px 50px 1px ;
+  margin: -7px;
   font-style: oblique;
   text-decoration: underline;
   background-color:gold;
