@@ -1,12 +1,15 @@
 body{
+
  background-color:hotpink;
  font-size:25px;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+section h1{
+  text-decoration: underline black;
+}
 
 /* Global */
 .container{
-  color:brown;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -29,12 +32,15 @@ header{
 
 header a{
   font-style: initial;
-  color:black;
+  color:darkred;
 
 }
 
 header li{
-  color:blue;
+  display: block;
+  float: right;
+  font-size: 30px;
+  padding: 15px;
 
 }
 
@@ -46,13 +52,16 @@ header #branding{
 }
 
 header #branding h1{
-  color:black;
+  color:whitesmoke;
   font-style:oblique;
 
 }
 
 header nav{
-  background-color:aquamarine;
+  margin:-80px;
+    display:block;  
+    float:right; 
+    padding:20px;   
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -64,6 +73,7 @@ font-weight: bold;
 }
 
 header a:hover{
+
   color:crimson;
   font-family:Arial, Helvetica, sans-serif;
 
@@ -71,13 +81,14 @@ header a:hover{
 
 /* Showcase */
 #showcase{
+  background-image:url(/img/showcase.jpg);
+  padding: 200px;
   font-style: oblique;
-  background-color:blanchedalmond;
   
 }
 
 #showcase h1{
-  color:darkblue;
+  color:aqua;
   
 }
 
