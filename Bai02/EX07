@@ -8,7 +8,6 @@ body{font-size: 20px;
     margin-left:60px;  
     margin-right:30px;
     
-
 }
 
 ul{
@@ -36,7 +35,7 @@ ul{
 /* Header **/
 header{padding-top: 20px 70px 5px 1px;
     margin: -7px; 
-    background-color:aqua;
+    background-color:azure;
     padding:20px 70px 5px 14px;
     text-decoration-line: underline;
     
@@ -107,7 +106,7 @@ header a:hover{
 /* Newsletter */
 #newsletter{
     color:blue;
-    background-color: aqua;
+    background-color:azure;
     
 }
 
@@ -141,3 +140,5 @@ footer{
     text-decoration-line: underline;
 }
   
+
+ 
